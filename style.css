@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	width: 100%;
+}
+
+.fcalc{
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+}
+
+.bcacalc,.bptcalc{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 2rem;
+}
+
+.but{
+ display: flex;
+ align-items: center;
+ border-right: 2px solid black;
+ padding-right: 1rem;
+}
+
+.total{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 1rem;
+ align-items: center;
+}
+
+.price{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 3rem;
+	text-align: center;
+	align-items: center;
+}
+
+.tprice{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 3rem;
+	text-align: center;
+	/*margin-bottom: 4px;*/
+} 
+
+.fcalc input{
+ width: 45px;
+ height: 30px;
+ margin-top: 0.5rem;
+ padding: 0.9px;
+}
+
+.fcalc button{
+	width: 5rem;
+	height: 5rem;
+	margin-left: 5rem;
+	cursor: pointer;
+	margin-top: 10rem;
+}
+
+.tprice p{
+	text-align: center;
+width: 45px;
+ height: 30px;
+ padding:0.2rem 0.2rem;
+ border: 0.9px solid black ;
+ margin-top: 5px;
+}
+
+.ctotal,.ptotal{
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	text-align: center;
+}
+
+.bcat,.bcac,.bptt,.bptc{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+
+.ctotal p,.ptotal p{
+	text-align: center;
+width: 45px;
+ height: 30px;
+ padding:0.2rem 0.2rem;
+ border: 0.9px solid black ;
+ margin-top: 5px;
+}
+
+/*bca*/
+
+.cfnum{}
+.cfprice{}
+.cftprice{}
+
+.csnum{}
+.csprice
+.cstprice{}
+
+.ctnum{}
+.ctprice
+.cttprice{}
+
+.tcprice{}
+.ttprice{}
+/*end bca*/
+
+/*bpt*/
+.pfnum{}
+.pfprice{}
+.pftprice{}
+
+.psnum{}
+.psprice{}
+.pstprice{}
+
+.ptnum{}
+.ptprice{}
+.pttprice{}
+
+.tpprice{}
+.tpbprice{}
+/*end bpt*/
+
+
+/*final col*/
+.finaltotal{
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+	align-items: center;
+	text-align: center;
+}
+
+.finaltotal label{
+	font-weight: bold;
+}
+
+.finaltotal p{
+	font-weight: bold;
+	text-align: center;
+width: 50px;
+height: 10px;
+border: 0.3rem solid black;
+padding: 2rem;
+}
+
+.finalst{
+	margin-right: 50px;
+}
+
+.tstrength{	
+}
+
+.tcol{	
+}
+/*end final col*/
+
+@media only screen and (max-width: 600px){
+
+
+	.fcalc{
+        padding: 1rem;
+		flex-direction: column;
+	}
+    
+    .finaltotal{
+    	margin-bottom: 5rem;
+    }
+
+}
